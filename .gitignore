@@ -1,0 +1,29 @@
+nano .gitignore
+```
+
+Add this content:
+```
+# Secrets - NEVER commit these
+secrets.yaml
+
+# ESPHome build files
+.esphome/
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
