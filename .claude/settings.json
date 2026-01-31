@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git branch:*)",
+      "Bash(git show:*)",
+      "Bash(git remote:*)",
+      "Bash(git fetch:*)",
+      "Bash(git ls-files:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git describe:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Read(/mnt/e/code/AI Code/M5Dial-EspHome/**)",
+      "Edit(/mnt/e/code/AI Code/M5Dial-EspHome/**)",
+      "Write(/mnt/e/code/AI Code/M5Dial-EspHome/**)"
+    ]
+  }
+}
